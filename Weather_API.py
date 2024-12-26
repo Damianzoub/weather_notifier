@@ -276,7 +276,7 @@ def kelving_to_celsium(kelvin):
 def fetch_weather():
 
   base_url = 'https://api.openweathermap.org/data/2.5/weather?'
-  API_KEY = 'e019b87a3112e80a271c7ff0558f736e'
+  
   location = input('Enter Place: ')
   url = base_url + 'appid=' + API_KEY + '&q='+ location
 
